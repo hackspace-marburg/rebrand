@@ -37,7 +37,7 @@ STRUCTURE
 -----------------------------------------
 */
 html, body{height:100%}
-body{font-size: 110%; font-family: 'PT Serif', serif; color:#222; margin:0 auto -80px; text-align:center}
+body{font-size: 110%; font-family: 'PT Serif', serif; color:white; margin:0 auto -80px; text-align:center; background: black;}
 #page-wrap{position:relative; width:90%; max-width: 960px; margin:0 auto; padding-left:10px; padding-right:10px; text-align:left}
 .content{width: 68.5%; max-width:680px; float:left;}
 
@@ -47,7 +47,7 @@ TYPOGRAPHY
 -----------------------------------------
 */
 p, address, caption, cite, pre, code, dfn, em, strong, th, var, dt, dd, tr, td
-{color:#222; line-height:1.3; margin-top:1.2em; margin-bottom:1.2em; text-align:left}
+{color:white; line-height:1.3; margin-top:1.2em; margin-bottom:1.2em; text-align:left}
 th, td, tr {padding: .4em; text-align: center; font-size: 90%; border-color: #669900;}
 th {font-weight: bold; border-top: 2px solid #669900;}
 #wikitext a, #wikitext a:visited,
@@ -55,7 +55,7 @@ th {font-weight: bold; border-top: 2px solid #669900;}
 #wikitext a strong, #wikitext a:visited strong,
 #wikitext a span, #wikitext a:visited span,
 .blogit-page-navigation a, .blogit-page-navigation a:visited,
-.postMeta-post a, .postMeta-post a:visited{color: #004799; text-decoration:none}
+.postMeta-post a, .postMeta-post a:visited{color: #f5f367; text-decoration:none}
 #wikitext a:hover,
 #wikitext a:hover em,
 #wikitext a:hover strong,
@@ -65,9 +65,9 @@ th {font-weight: bold; border-top: 2px solid #669900;}
 #wikitext a.urllink {background: url(/pub/skins/equilibrium/images/external_link.png) center right no-repeat; background-size: 10px 10px; padding-right: 0.8em;}
 #wikitext a.wikilink[href*="Profiles"], #wikitext a.createlinktext[href*="Profiles"] {background: url(/pub/skins/equilibrium/images/profile.png) center right no-repeat; background-size: 10px 10px; padding-right: 0.8em;}
 h1 {font-size:1.4em; font-weight:bold}
-h4, h2, #sidebar .sidehead, #wikitext h2.section-head{font-size:1.8em; color:#222; text-transform:uppercase; padding-bottom:4px; border-bottom:4px solid #cc0033; margin-top:28px; margin-bottom:28px; font-weight:bold}
+h4, h2, #sidebar .sidehead, #wikitext h2.section-head{font-size:1.8em; color:white; text-transform:uppercase; padding-bottom:4px; border-bottom:4px solid #cc0033; margin-top:28px; margin-bottom:28px; font-weight:bold}
 h1.page-head{border-bottom:4px solid #cc0033; color:#222; font-size:2.2em; font-weight:bold; padding-bottom:4px}
-h1 a{text-decoration:none; color:#222}
+h1 a{text-decoration:none; color:white}
 
 .sitetitle:hover,
 .sitetitle a:hover,
@@ -179,12 +179,12 @@ SIDEBAR
 */
 #sidebar{float:right; width: 28%; max-width: 260px; padding-left:20px; overflow:hidden}
 #sidebar p{padding-left:0.2em; padding-right:0.2em;}
-#sidebar p a{border-bottom:1px solid #c9c9c9; color:#004799; text-decoration:none}
+#sidebar p a{border-bottom:1px solid #c9c9c9; color:#f5f367; text-decoration:none}
 #sidebar p a:hover, #sidebar p a:hover{color:#cc0033; text-decoration:none}
 #sidebar li {list-style-type: none; border-bottom: 1px solid #C9C9C9; line-height:2.0em; }
 #sidebar li a{display:block; width:100%; margin:0; padding:0.2em; list-style:none; font-size:1.4em; font-family: 'Varela Round', sans-serif; list-style-type:none; text-decoration:none; color:#222}
-#sidebar li a{color:#222; text-decoration:none}
-#sidebar h2, #sidebar .sidehead{font-size:1.8em; color:#222; text-align:right; text-transform:uppercase; border-bottom:4px solid #669900; margin-top:1.03em; margin-bottom:0}
+#sidebar li a{color:white; text-decoration:none}
+#sidebar h2, #sidebar .sidehead{font-size:1.8em; color:white; text-align:right; text-transform:uppercase; border-bottom:4px solid #669900; margin-top:1.03em; margin-bottom:0}
 
 /*
 -----------------------------------------
@@ -498,7 +498,7 @@ MEDIA QUERIES
 
 .warning {
   padding-left: 90px;
-  background: #ffdfe8 url(/pub/wsplus/warning.png) no-repeat 20px;
+  background: #ff4040 url(/pub/wsplus/warning.png) no-repeat 20px;
   border: 1px solid #cc0033;
 }
 
