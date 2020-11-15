@@ -242,7 +242,7 @@ FOOTER
 
 #footer div, #footer p{text-align: center; font-size:1em; color:#cc0033; line-height:1.5em; margin-bottom:0; margin-top:0}
 
-#footer div a, #footer p a{border-bottom:1px solid #c9c9c9; color:#004799; text-decoration:none}
+#footer div a, #footer p a{border-bottom:1px solid #c9c9c9; color:#f5f367; text-decoration:none}
 
 #footer div a:hover, #footer a:hover{color:#cc0033; text-decoration:none}
 
@@ -369,7 +369,7 @@ PMWIKI
 #footer .credits a {color: #cc0033}
 #top .createlink, #top ul .createlink { display: none !important}
 .pageactions {position:absolute;right:5px;top:-70px}
-.pageactions li a {font-size:110% !important; color: #004799 !important; text-transform: lowercase !important}
+.pageactions li a {font-size:110% !important; color: #f5f367 !important; text-transform: lowercase !important}
 .pagegroup {display:inline; margin-top: 0; margin-left: 0.1em; color: #cc0033; font-size:1.1em; text-transform: lowercase;text-decoration: none}
  a.createlinktext { text-decoration:none; border-bottom:none; }
 a.createlink { text-decoration:none; position:relative; top:-0.5em; font-weight:bold; font-size:smaller; border-bottom:none; }
